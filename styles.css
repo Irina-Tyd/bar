@@ -44,6 +44,7 @@ header {
 .active-link {
 	padding-bottom: 25px;
 	border-bottom: 3px solid #46A358;
+	font-weight: 700;
 }
 
 .last-link {
