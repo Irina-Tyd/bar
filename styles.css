@@ -20,7 +20,6 @@ header {
 .logo {
 	display: inline-block;
 	vertical-align: top;
-	padding-bottom: 18px;
 	margin-left: auto;
 	margin-right: 220px;
 }
@@ -71,13 +70,19 @@ header {
 
 .content {
 	background: rgba(245, 245, 245, 0.5);
-	padding-left: 43px;
-	padding-bottom: 85px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 .title {
-	margin-left: 43px;
+	margin-left: auto;
+	margin-top: 0;
+	margin-bottom: 0;
 	color: rgba(61, 61, 61, 1);
+	padding-left: 43px;
+	font-weight:500;
 }
 
 .tittle-make {
@@ -85,9 +90,11 @@ header {
 	font-size: 70px;
 	line-height: 70px;
 	color: rgba(61, 61, 61, 1);
-	margin-top: 7px;
+	padding-top:  7px;
+	padding-left: 40px;
+	margin-left: 0;
+	margin-top: 0;
 	margin-bottom: 0;
-	margin-left: 40px;
 }
 
 .tittle-make span {
@@ -95,9 +102,10 @@ header {
 	}
 
 .text {
-	margin-top: 5px;
-	margin-bottom: 44px;
-	margin-left: 43px;
+	padding-top: 5px;
+	padding-bottom: 44px;
+	padding-left: 43px;
+	margin-left: auto;
 	width: 557px;
 	font-size: 14px;
 	line-height: 24px;
@@ -105,10 +113,16 @@ header {
 }
 
 .link-button {
+	display: inline-block;
 	margin-top: 0px;
 	margin-bottom: 85px;
-	margin-left: 41px;
+	margin-left: auto;
 	vertical-align: top;
+	padding-left: 43px;
+	text-decoration: none;
+}
+
+.link-button span {
 	background-color: #46A358;
 	border: none;
 	width: 140px;
@@ -117,9 +131,8 @@ header {
 	border-radius: 6px;
 	font-size: 16px;
 	color: rgba(255, 255, 255, 1);
-	text-decoration: none;
 	padding: 11px 27px 9px 26px;
-}
+	}
 
 .content-inner {
 	display: inline-block;
@@ -130,4 +143,6 @@ header {
 
 .plant{
 	margin-top: 12px;
+	margin-left: 93px;
+	margin-right:auto;
 }
