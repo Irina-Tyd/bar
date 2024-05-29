@@ -84,6 +84,8 @@ header {
 	color: rgba(61, 61, 61, 1);
 	padding-left: 43px;
 	font-weight:500;
+	font-size: 14px;
+	line-height: 16px;
 }
 
 .tittle-make {
