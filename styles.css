@@ -20,7 +20,6 @@ header {
 .logo {
 	display: inline-block;
 	vertical-align: top;
-	margin-left: auto;
 	margin-right: 220px;
 }
 
@@ -71,18 +70,15 @@ header {
 
 .content {
 	background: rgba(245, 245, 245, 0.5);
-	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 
 }
 
 .title {
-	margin-left: auto;
 	margin-top: 0;
 	margin-bottom: 0;
 	color: rgba(61, 61, 61, 1);
-	padding-left: 43px;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 16px;
@@ -95,11 +91,10 @@ header {
 	line-height: 70px;
 	color: rgba(61, 61, 61, 1);
 	padding-top: 7px;
-	padding-left: 40px;
 	margin-left: 0;
-	margin-top: 0;
+	margin-top: 7px;
 	margin-bottom: 0;
-	font-weight: 900PX;
+	font-weight: 900;
 }
 
 .tittle-make span {
@@ -107,10 +102,8 @@ header {
 	}
 
 .text {
-	padding-top: 5px;
-	padding-bottom: 44px;
-	padding-left: 43px;
-	margin-left: auto;
+	margin-top: 5px;
+	margin-bottom: 44px;
 	width: 557px;
 	font-size: 14px;
 	line-height: 24px;
@@ -120,10 +113,7 @@ header {
 .link-button {
 	display: inline-block;
 	margin-top: 0px;
-	margin-bottom: 85px;
-	margin-left: auto;
 	vertical-align: top;
-	padding-left: 43px;
 	text-decoration: none;
 }
 
